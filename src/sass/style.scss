@@ -15,6 +15,11 @@
     align-items: center;
     font-family: "Lato", serif;
 
+    
+    @media screen and (min-width: 576px) {
+        align-items: start;
+        }    
+
  }
 
  
@@ -78,4 +83,39 @@
             border: none;
         }
     }
+
+    @media screen and (min-width: 576px) {
+        & {
+            align-items: start;
+            margin-top: 5rem;
+            height: 200px;
+        }
+
+        &__article {
+            flex-direction: row;
+            align-items: start;
+        }
+
+        &__image {
+
+            width: 200px;
+            height: 190px;
+        }
+    
+        &__image-container {
+            min-width: 200px;
+            max-width: 200px;
+        }
+    }
+
+    
+    @media screen and (min-width: 768px) {
+        h2 {
+            font-size: 2.5em;
+            padding: 0.8rem;
+        }
+    }
+
+
+
 }
