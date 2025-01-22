@@ -126,5 +126,11 @@
         }
     }
 
+    @media screen and (min-width: 1400px) {
+        & {
+            border: 6px inset rgb(103, 197, 166);
+        }
+    }
+
 
 }
